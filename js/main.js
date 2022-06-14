@@ -4,7 +4,7 @@ arrowClick.addEventListener("click", expand)
 
 
 function expand(){
-    document.querySelector(".imgtest").style.height = "200px";
+    document.querySelector(".imgtest").style.height = "300px";
     box.addEventListener("mouseout", close)
     function close(){
         setTimeout(function() {
