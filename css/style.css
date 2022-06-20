@@ -308,8 +308,11 @@ footer{
 }
 .skill-html5:hover{
      background: #c74221;
-     color: #fff;
-     
+     color: #fff;    
+}
+.skill-css3:hover{
+     background: #1572b6;
+     color:white;
 }
 
 
@@ -384,9 +387,9 @@ footer{
 
 .imgtest{
    
-     height: 50px;
+     height: 100px;
      
-     transition: height 2s; 
+     transition: height 1.5s; 
 }
 .project-imgs{
      height: 50%;
@@ -417,4 +420,14 @@ footer{
      color: #fbfaf3;
      padding: 0 0 1rem 0;
 }
+.arrowClick:hover{
+     color: #da0037;
+     transition: color 1s ease-in-out;
+}
+/* .arrowRotate{
+     transform: rotate(180deg);
+     transition: all 2s;
+} */
+
+
 
