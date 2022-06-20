@@ -4,11 +4,11 @@ arrowClick.addEventListener("click", expand)
 
 
 function expand(){
-    document.querySelector(".imgtest").style.height = "500px";
+    document.querySelector(".imgtest").style.height = "300px";
     box.addEventListener("mouseout", close)
     function close(){
         setTimeout(function() {
-            box.style.height = "100px";
+            box.style.height = "50px";
           }, 500);
     }
     }
